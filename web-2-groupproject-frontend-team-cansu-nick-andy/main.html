@@ -17,27 +17,35 @@
         <form class="row g-3 bg-light mb-3" style="width: 50rem;">
             <div class="col-md-6">
                 <label for="nameChallenge" class="form-label">Name challenge</label>
-                <input type="text" class="form-control" id="nameChallenge">
+                <input type="text" class="form-control" id="challengeName">
             </div>
             <div class="row g-3">
                 <label for="nameChallenge" class="form-label">More info</label>
                 <div class="col-sm">
-                    <input type="number" class="form-control" placeholder="points" aria-label="points">
+                    <input type="number" class="form-control" placeholder="points" aria-label="points"
+                        id="challengeCourse">
                 </div>
                 <div class="col-sm">
-                    <input type="text" class="form-control" placeholder="course" aria-label="course">
+                    <input type="text" class="form-control" placeholder="course" aria-label="course"
+                        id="challengePoints">
                 </div>
-
+                <div>
+                    <input type="submit" class="btn btn-primary" id="submit">
+                </div>
             </div>
-            <a id="submit" href="#" class="btn btn-primary">Save</a>
+
         </form>
     </div>
 
     <div id="content">
-        </div>
-        
+        <p>
+            1
 
-    <script src="challenges.js"></script>
+        </p>
+    </div>
+
+
+    <script src="./challenges.js"></script>
 </body>
 
 </html>
